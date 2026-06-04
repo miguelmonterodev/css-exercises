@@ -1,8 +1,8 @@
 
 /* 
 * `div`: a red background, white text, a font size of 32px, center aligned, and bold
-* `p`: a green background, white text, and a font size of 18px
-* `button`: an orange background and a font size of 18px 
+* `p`: a green background, white text, and a font size of 18px => Internal CSS
+* `button`: an orange background and a font size of 18px => Inline style
 */
 
 div {
@@ -10,21 +10,6 @@ div {
     font-size: 32px;
     font-weight: 700;
     text-align: center;
-
-}
-
-p {
-    background-color: green;
-}
-
-div, p {
     color: white;
-}
 
-button {
-    background-color: orange;
-}
-
-p, button {
-    font-size: 18px;
 }
