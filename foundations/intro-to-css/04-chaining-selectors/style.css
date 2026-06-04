@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+/* 
+- `avatar` and `proportioned` classes 300 pixels wide. We want it to automatically retain its original square proportions.
+- `avatar` and `distorted` classes 200 pixels wide, then make its height twice as big as its width.
+*/
+
+.avatar.proportioned {
+    width: 300px;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
